@@ -1,0 +1,66 @@
+body{
+    font-family: "cairo", sans-serif;
+    text-align: center;
+}
+.main{
+    width: 40%;
+    box-shadow: 1px 1px 10px silver;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+    font-size: 15px;
+    font-family: "Cairo", sans-serif; /* Apply Cairo font to input fields */
+    margin-bottom: 5px;
+    padding: 10px; /* Increased padding for a better look */
+    width: 80%; /* Adjust width to fit better within the form */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+label {
+    background-color: #007bff;
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    width: 40%;
+    display: block; /* Ensure labels are block-level for better layout */
+    margin-top: 15px; /* Spacing between input fields and label */
+    cursor: pointer;
+    margin-left: 180px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+label:hover{
+    background-color: #0056b3; /* Darken button on hover */
+}
+
+input[type="submit"] {
+    font-size: 15px;
+    font-family: "Cairo", sans-serif;
+    padding: 10px 20px;
+    background-color: #0fd30f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: green; /* Darken button on hover */
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
